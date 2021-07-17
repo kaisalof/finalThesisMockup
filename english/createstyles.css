@@ -1,0 +1,132 @@
+body {
+    color: #44819E;
+    color: #0E4D6B;
+    color: #6FD1BB;
+    color: #D7ADA8;
+    color: #9E444E;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    height: 100px;
+    padding-top: 50px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+#workoutName {
+    text-align: center;
+    font-size: 200%;
+    text-transform: uppercase;
+    height: 100px;
+    font-family: Tahoma, sans;
+    color: #44819E;
+    background-color: transparent;
+    border: none;
+    border-bottom: 5px solid white;
+}
+
+#workoutName:focus,
+#workoutName:active {
+    background-color: transparent;
+}
+
+::placeholder {
+    color: #44819E80;
+    background: transparent;
+}
+
+#buttons {
+    position: relative;
+}
+
+#save,
+#plus {
+    position: absolute;
+    border: 5px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#save {
+    left: 80px;
+    border-radius: 2em;
+}
+
+#saveButton {
+    width: 80px;
+    height: 80px;
+    padding: 12px 15px;
+}
+
+#plus {
+    right: 80px;
+    text-decoration: none;
+    font-size: 70px;
+    color: #0E4D6B;
+    padding: 5px 27px 17px 27px;
+    border-radius: 0.5em;
+}
+
+#exercises ul {
+    list-style-type: none;
+    margin-top: 250px;
+}
+
+#exercises ul li {
+    height: 10em;
+    background-color: white;
+    width: 92%;
+    margin: 2em 1em;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#exercises ul li a {
+    text-decoration: none;
+    font-size: 300%;
+    text-transform: uppercase;
+    color: #0E4D6B;
+    padding-left: 50px;
+    margin-bottom: 0.5em;
+}
+
+#exercises ul li p {
+    color: #44819E;
+    font-size: 200%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+#exercises ul .one,
+#exercises ul .two {
+    margin: 0em 1em;
+}
+
+#exercises ul .one {
+    border-radius: 1em 1em 0em 0em;
+}
+
+#exercises ul .two {
+    border-radius: 0em 0em 1em 1em;
+}
+
+.exercise {
+    background: url(edit.png) no-repeat;
+    background-size: 45px;
+    background-position: right 15px top 5px;
+}
+
+#startNew {
+    font-weight: bold;
+    width: 300px;
+    margin-left: 50px;
+}
+
+#quitCreating {
+    width: 200px;
+    margin-left: 50px;
+}

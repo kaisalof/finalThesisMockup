@@ -1,0 +1,64 @@
+body {
+    color: #44819E;
+    color: #0E4D6B;
+    color: #6FD1BB;
+    color: #D7ADA8;
+    color: #9E444E;
+    color: white;
+}
+
+#workoutlibrary {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#workoutlibrary h1 {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    margin-top: 0;
+    text-align: center;
+    background-color: #6FD1BB;
+    padding-top: 40px;
+    text-transform: uppercase;
+    font-size: 300%;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 8px #0E4D6B;
+    border-bottom: 1px solid white;
+}
+
+#workoutlibrary ul {
+    list-style-type: none;
+}
+
+#workoutlibrary ul li {
+    height: 20em;
+    background-color: white;
+    width: 92%;
+    margin: 2em 1em;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#workoutlibrary ul li a {
+    text-decoration: none;
+    font-size: 400%;
+    text-transform: uppercase;
+    color: #0E4D6B;
+    padding-left: 50px;
+    margin-bottom: 0.5em;
+}
+
+#workoutlibrary ul li p {
+    color: #44819E;
+    font-size: 200%;
+    padding-left: 100px;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+}
+
+#workoutlibrary ul li .description {
+    margin-top: 1em;
+}

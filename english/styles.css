@@ -1,0 +1,74 @@
+body {
+    background: linear-gradient( #CBAEA9, #95D1BB, #2F4A69) no-repeat center fixed;
+    background-size: cover;
+    color: #44819E;
+    color: #0E4D6B;
+    color: #6FD1BB;
+    color: #D7ADA8;
+    color: #9E444E;
+    color: white;
+    font-family: Tahoma, sans;
+    margin: 0;
+}
+
+.homebuttons {
+    height: 300px;
+    width: 700px;
+    color: white;
+    border: 20px solid white;
+    border-radius: 2em;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin: 200px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 100;
+}
+
+div h2 {
+    font-size: 500%;
+    height: 200px;
+    font-weight: bold;
+    margin-top: 90px;
+    letter-spacing: 10px;
+}
+
+#start {
+    margin-top: 250px;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    height: 125px;
+    background-color: #6FD1BB;
+    width: 100%;
+    font-size: 200%;
+    bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar a {
+    display: block;
+    text-decoration: none;
+    font-size: 125%;
+    color: #0E4D6B;
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+    margin-top: 17px;
+    margin-left: 40px;
+    border-radius: 2em;
+    background-color: white;
+    float: left;
+    border: 3px solid #D7ADA8;
+}
+
+#startWorkout,
+#createNew,
+#quit {
+    width: 500px;
+    margin-left: 100px;
+    font-weight: bold;
+}

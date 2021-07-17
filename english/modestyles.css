@@ -1,0 +1,121 @@
+body {
+    color: #44819E;
+    color: #0E4D6B;
+    color: #6FD1BB;
+    color: #D7ADA8;
+    color: #9E444E;
+    color: white;
+    text-transform: uppercase;
+}
+
+#currentExercise {
+    text-align: center;
+}
+
+#currentExercise h1 {
+    text-align: center;
+    font-size: 600%;
+    height: 200px;
+    margin: 100px;
+    padding: 50px;
+    padding-top: 170px;
+    padding-bottom: 100px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    border: 5px solid white;
+    border-radius: 0.5em;
+}
+
+#setsReps {
+    align-self: center;
+    width: auto;
+}
+
+#setTitle {
+    width: 20%;
+}
+
+#repsTitle {
+    width: 35%;
+}
+
+#weightTitle {
+    width: 40%;
+}
+
+#setsReps th,
+#setsReps td {
+    text-align: center;
+}
+
+#setsReps th {
+    font-size: 300%;
+    padding: 30px 10px;
+    font-weight: 100;
+}
+
+#setsReps td {
+    font-size: 250%;
+    padding: 30px 10px;
+}
+
+#setsReps input {
+    height: 60px;
+    text-align: center;
+    font-size: 100%;
+    font-family: Tahoma, sans;
+    border-radius: 0.5em;
+    border: 1px solid white;
+}
+
+.reps {
+    width: 80%;
+}
+
+.weight {
+    width: 70%;
+}
+
+#currentExercise button {
+    width: 85%;
+    height: 80px;
+    margin-top: 50px;
+    border-radius: 0.5em;
+    font-size: 225%;
+    text-transform: uppercase;
+    font-family: Tahoma, sans;
+    border: 1px solid #D7ADA8;
+    color: #0E4D6B;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#currentExercise div {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    padding: 1px 30px;
+}
+
+.previous,
+.next {
+    position: absolute;
+    top: 130px;
+    color: white;
+    height: 70px;
+    width: 25px;
+    font-size: 1000%;
+}
+
+.previous {
+    left: -5px;
+}
+
+.next {
+    right: 30px;
+}
+
+::placeholder {
+    color: #44819E80;
+}
